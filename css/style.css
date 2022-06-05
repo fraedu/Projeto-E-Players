@@ -1,0 +1,46 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1E1C21;
+    height: 80px;
+}
+
+.container_grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    background-image: url(../img/banner_pilotos.png);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
