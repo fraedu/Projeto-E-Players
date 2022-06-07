@@ -1,4 +1,6 @@
 /*CSS reset*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -44,3 +46,59 @@ header {
     background-size: cover;
 }
 
+.posicionamento_banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteudo_banner h1 {
+    font-family: "Titillium web" ;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.conteudo_banner {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    height: 300px;
+    width: 495px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo_banner a {
+    color: white;
+    text-decoration: none;
+    background-color: #c31616;
+    padding: 15px;
+    font-family: "Roboto";
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 7px;
+
+}
+
+.conteudo_banner p {
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.patrocinadores {
+    background-color: black;
+    height: 120px;
+}
+
+.posicionamento_jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
+}
+
+.posicionamento_jogos img {
+    width: 150px;
+}
