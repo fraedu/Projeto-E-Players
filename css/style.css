@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    color: white;
+}
+
 header {
     background-color: #1E1C21;
     height: 80px;
@@ -102,3 +106,150 @@ header {
 .posicionamento_jogos img {
     width: 150px;
 }
+
+.ofertas {
+    height: 850px;
+    background-color: #1E1C21;
+}
+
+.ofertas h2 {
+    font-family: Roboto;
+    color: white;
+    font-size: 27px;
+}
+
+.card_position {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+}
+
+.cardnews {
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    height: 330px;
+
+}
+
+.conteudo_cardnews {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    height: 160px;
+    width: 210px;
+    margin: 5px;
+}
+
+.conteudo_cardnews h3 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.conteudo_cardnews p {
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.conteudo_cardnews a {
+    font-family: Roboto;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    background-color: #c31616;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.participar_ligas {
+    background-image: url(../img/fundo-participar-ligas.svg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ligas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo_ligas h2 {
+    font-family: Roboto;
+    font-size: 35px;
+}
+
+.conteudo_ligas p {
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.conteudo_ligas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 524px;
+    width: 450px;
+}
+
+.roda_pe {
+    height: 250px;
+    background-color: #010101;
+}
+
+.links {
+    font-family: Titillium web;
+    font-size: 14px;
+    list-style: none;
+}
+
+
+.position_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.redes p {
+    font-family: Titillium web;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#botao_cadastrar {
+    background-color: #001F70;
+    color: white;
+    padding: 2px;
+}
+
+.redes_sociais {
+    display: flex;
+
+}
+
+.position_footer img {
+    height: 29px;
+
+}
+
