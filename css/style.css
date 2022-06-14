@@ -212,8 +212,7 @@ header {
 
 .links {
     font-family: Titillium web;
-    font-size: 14px;
-    list-style: none;
+    font-size: 12px;
 }
 
 
@@ -227,7 +226,7 @@ header {
 .redes {
     display: flex;
     flex-direction: column ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
 }
 
@@ -253,3 +252,167 @@ header {
 
 }
 
+@media screen and (max-width: 1200px) {
+    .cardnews {
+        width: 200px;
+    }
+    .cardnews img {
+        width: 200px;
+    }
+    .conteudo_cardnews {
+        font-size: 14px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header {
+        height: 70px;
+    }
+    .logo_e-play {
+        height: 22px;
+        width: 260px;
+    }
+    .menu a {
+        font-size: 12px;
+    }
+    .menu {
+        margin: 10px;
+    }
+    .banner {
+        height: 500px;
+    }
+    .conteudo_banner h1 {
+        font-size: 50px;
+    }
+    .conteudo_banner p {
+        font-size: 20px;
+    }
+    .conteudo_banner a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .patrocinadores {
+        height: 100px;
+    }
+    .posicionamento_jogos img {
+        width: 117px;
+    }
+    .ofertas {
+        height: 750px;
+    }
+    .cardnews{
+        height: 300px;
+    }
+    .card_end {
+        display: none;
+    }
+    .participar_ligas {
+        height: 425px;
+    }
+    .conteudo_ligas {
+        height: 350px;
+        width: 300pxpx;
+    }
+    .conteudo_ligas h2 {
+        font-size: 25px
+    }
+    .conteudo_ligas p {
+        font-size: 15px
+    }
+    .campeao_banner img {
+        display: none;
+    }
+    .roda_pe {
+        height: 200px;
+    }
+    .logo_footer {
+        width: 200px;
+    }
+    .links h2 {
+        font-size: 22px;
+    }
+    .envio_email p {
+        font-size: 14px;
+    }
+    .envio_email {
+        width: 200px;
+    }
+    #botao_cadastrar {
+        padding: 1px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+   
+    .banner {
+        background-image: url(../img/Imagem\ Banner.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: 2 ;
+    }
+    .posicionamento_jogos img {
+        width: 90px;
+    }
+    .card_3 {
+        display: none;
+    }
+    .envio_email {
+        width: 170px;
+        margin: 15px;
+    }
+    .redes_sociais p {
+        display: none;
+    }
+    .roda_pe {
+        height: 500px;
+        background: #000000;
+    }
+    .position_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 469px) {
+    .patrocinadores {
+        display: none;
+    }
+    .card2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cabecalho img {
+        width: 180px;
+    }
+    .banner {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner {
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .banner {
+        height:  320px;
+    }
+    .conteudo_banner h1 {
+        font-size: 36pxpx;
+    }
+    .conteudo_banner {
+        height: 300px;
+        width: 280px;
+    }
+}
