@@ -14,7 +14,7 @@
             <a href="index.html"> <img class= "logo_e-play" src="img/logo.svg" alt="logo e-commerce"></a>
             <nav id="menu" class="menu" >
                 <a href="#">Início</a>
-                <a href="#">Horários</a>
+                <a href="#">Login</a>
                 <a href="#">Campeonatos</a>
                 <a href="#">Resultados</a>
                 <a href="#">Notícias</a>
@@ -23,7 +23,7 @@
         </div>
     </header>
     <main>
-        <section class="banner">
+        <section id="carrossel" class="banner banner_f1">
             <div class="container posicionamento_banner">
                 <div class="conteudo_banner">
                     <h1>Liga E-Players</h1>
@@ -159,11 +159,11 @@
                 <div class="envio_email">
                 <p>Faça parte do nosso clan, assine nossa newsletter!</p>
                 <div>
-                    <form action="">
+                    <form onsubmit="cadastrarNewsLetter()" action="">
                         <div class="formulario">
                             <label for="email"></label>
-                            <input placeholder="Escreva seu email" type="email">
-                            <input id= "botao_cadastrar" type="submit" value="Cadastrar">
+                            <input id="campo-email" placeholder="Escreva seu email" type="email" required>
+                            <button id= "botao_cadastrar" type="submit">Cadastrar</button>  
                         </div>
                     </form>
                 </div>
@@ -178,6 +178,7 @@
 
         </div>
     </footer>
+    <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

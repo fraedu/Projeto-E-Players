@@ -46,11 +46,23 @@ header {
 }
 
 .banner {
-    background-image: url(../img/banner_pilotos.png);
+    
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.banner_f1 {
+    background-image: url(../img/banner_pilotos.png);
+}
+
+.banner_cs {
+    background-image: url(../img/banner_cs.png);
+}
+
+.banner_lol {
+    background-image: url(../img/banner_lol.png);
 }
 
 .posicionamento_banner {
